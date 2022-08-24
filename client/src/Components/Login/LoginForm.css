@@ -1,0 +1,35 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-signup-form {
+  width: 30%;
+  border: 1px solid rgb(230, 224, 224);
+  padding: 25px;
+  text-align: center;
+}
+.login-signup-form input:not(.submit) {
+  border-bottom: 1px solid gray;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+.submit {
+  background-color: rgb(78, 170, 78);
+}
+.googleLogin {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  margin-bottom: 15px;
+}
+.signup-login-with {
+  margin-top: 20px;
+  text-align: center;
+}
